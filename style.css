@@ -12,7 +12,6 @@ body{width: 100vw; height: 100%; }
 .meteo{ position: absolute; top: 10px; left: 0; animation: meteor 6s linear infinite;}
 .meteo img{width: 100px; height: 100px;}
 .r img{width: 190px; height: 200px; z-index: 10;} .r{position: absolute; bottom: 10%; animation: rocket 5s 2s linear infinite;}
-.sht{position: absolute;top: 10%; z-index: 1000;} .sht span{width: 50px; height: 50px; background-color: red;}
  @keyframes star{to{transform: rotate(360deg);}} 
  @keyframes ufo{0%{transform: scale(0.8) translate(-300px,-50px);}
  25%{transform: scale(1.2) translate(80px,-120px);}
