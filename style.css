@@ -1,0 +1,23 @@
+*{border: 0; margin: 0; box-sizing: border-box;}
+body{width: 100vw; height: 100%; }
+.space{background: url(./pexels-hristo-fidanov-1252890.jpg); background-position: center; background-size:cover; background-repeat: no-repeat; overflow: hidden; width: 100vw; height: 100vh;}
+.star span{background: white; width: 5px; height: 5px; border-radius: 100px; position: absolute; top:20rem; left: 28rem;box-shadow: 0 0 0 2px rgb(61, 124, 243);}
+.star1 span{background: white; width: 5px; height: 5px; border-radius: 100px; position: absolute; top: 18rem;left: 38rem;box-shadow: 0 0 0 2px rgb(58, 156, 236);}
+.star2 span{background: white; width: 5px; height: 5px; border-radius: 100px; position: absolute; top: 26rem; left: 48rem;box-shadow: 0 0 0 2px rgb(39, 101, 172);}
+.star3 span{background: rgb(241, 240, 240); width: 5px; height: 5px; border-radius: 100px; position: absolute; top: 26rem; left: 40rem;box-shadow: 0 0 0 2px rgb(73, 146, 241);}
+.star4 span{background: white; width: 5px; height: 5px; border-radius: 100px; position: absolute; top: 24rem; left: 25rem;box-shadow: 0 0 0 2px rgb(54, 130, 230);}
+.str{width: 100%; height: 100vh; animation: star 80s linear infinite;}
+.rocket{position: absolute; top: 50%; left: 2rem; animation: ufo 5s linear infinite;}
+.rocket img{width: 250px; height: 250px; }
+.meteo{ position: absolute; top: 10px; left: 0; animation: meteor 6s linear infinite;}
+.meteo img{width: 100px; height: 100px;}
+.r img{width: 190px; height: 200px; z-index: 10;} .r{position: absolute; bottom: 10%; animation: rocket 5s 2s linear infinite;}
+.sht{position: absolute;top: 10%; z-index: 1000;} .sht span{width: 50px; height: 50px; background-color: red;}
+ @keyframes star{to{transform: rotate(360deg);}} 
+ @keyframes ufo{0%{transform: scale(0.8) translate(-300px,-50px);}
+ 25%{transform: scale(1.2) translate(80px,-120px);}
+50%{transform: scale(1.7) translate(280px,-190px);}
+75%{transform: scale(2.2) translate(420px,-250px);}
+100%{transform: translate(580px,-390px) scale(0.2);}}
+@keyframes meteor { to{transform: translate(800px,700px) scale(1.2);} }
+@keyframes rocket{from{transform: translateY(200px);} to{transform: translateY(-500px);}}
